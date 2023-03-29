@@ -1,0 +1,28 @@
+1. Инсталирав git bash и имам профил на Github.
+2. Го променив името на главната гранка во master.
+3. Креирав репо со име SI_2023_lab1_201154.
+4. Креирав директориум со име SI_2023_lab1_201154 на десктопот.
+- Со командата cd Desktop i cd SI_2023_lab1_201154 влегов во директориумот и со командата git init го инициализирав локалното репо.
+5. Со командата git remote add origin https://github.com/ChonovM/SI_2023_lab1_201154.git го поврзав со remote репото.
+6. Со командата touch README.md креирав нов документ и со nano README.md се потпишав внатре во документот. Со git add . го додадов на сцена и со git commit -m "Initial commit" го commitnav на локалното репо.
+7. Со touch SILab1.java направив нов документ и со nano SILab1.java влегов во него и ја ставив java класата што беше дадена. Со git add . и git commit -m "Add java class" ја комитнав на локалното репо.
+8. Со git push --set-upstream origin master ги синхронизирам локалното и оддалеченото репо.
+9. Со git checkout -b bug1 креирам нов branch, git checkout master за да се вратам на мастер и со истите команди ке направам branch bug2 i bug3.
+10. git checkout bug1.
+11. nano SILab1.java; поправувам i <= n во i < n, git add . ; git commit -m "Fix wrong loop for reading";
+12. git checkout bug2.
+13. nano SILab1.java; поправувам el % 2 == 0 во el % 2 != 0, git add . ; git commit -m "Fix wrong condition in filterOddNumbers";
+14. git checkout bug3.
+15. nano SILab11.java; поправувам sum = 1 во sum = 0 и sum *= el во sum += el, git add . ; git commit -m "Fix method sumEvenNumbers";
+17. git checkout master.
+18. git merge bug1 - Се mergenuva со Fast Forward методот.
+19. git push origin.
+20. git merge bug2. - Се mergenuva со ort стратегијата.
+21. git push origin.
+22. git checkout bug3.
+23. git rebase master.
+24. git checkout master.
+25. git merge bug3. - Се mergnuva со Fast Forward методот поради rebase.
+26. git push origin.
+27. git log > logs.txt.
+28. touch 201154.txt; nano 201154.txt - ја пополнувам со документацијата, git add .; git commit -m "Final commit"; git push origin;

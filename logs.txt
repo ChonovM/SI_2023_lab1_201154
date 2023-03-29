@@ -1,0 +1,37 @@
+commit aa6f6344c44f35924471e60caae6670227126a35
+Author: ChonovM <chonov.m77@gmail.com>
+Date:   Wed Mar 29 18:10:42 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 3ec9918491fc649c30a4e5d1d4dc410ce1db333f
+Merge: 27f9660 be217ce
+Author: ChonovM <chonov.m77@gmail.com>
+Date:   Wed Mar 29 18:11:37 2023 +0200
+
+    Merge branch 'bug2'
+    Merge branch bug2
+
+commit be217ce8fa479cf44efe32b46a34a14c4a430442
+Author: ChonovM <chonov.m77@gmail.com>
+Date:   Wed Mar 29 18:10:05 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 27f966011efda79c8e6bcbc5d7eb4483ffacc5a9
+Author: ChonovM <chonov.m77@gmail.com>
+Date:   Wed Mar 29 18:09:10 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 5555082a7fa9e4a14cf22a36818b840f95d1b0b8
+Author: ChonovM <chonov.m77@gmail.com>
+Date:   Wed Mar 29 18:01:06 2023 +0200
+
+    Add java class
+
+commit 24e8a07f39530b89762dea92d6972267e02c0f33
+Author: ChonovM <chonov.m77@gmail.com>
+Date:   Wed Mar 29 18:00:01 2023 +0200
+
+    Initial commit
